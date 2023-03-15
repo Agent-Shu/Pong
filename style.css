@@ -1,0 +1,39 @@
+.body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(Images/background.jpg);
+    margin: 0px;
+}
+
+@font-face { 
+    font-family: homemade; 
+    src: url("font/Minecraft.ttf"); 
+} 
+
+.outer{
+    background-color: white;
+    display: flex;
+    position: relative;
+    width: 96vw;
+    height: 44vw;
+    top: 3vw;
+    left: 2vw;
+    margin: 0px;
+}
+
+.inner{
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 43vw;
+    top: 0.5vw;
+    left: 0.5vw;
+    margin: 0px;
+}
+
+
