@@ -36,4 +36,28 @@
     margin: 0px;
 }
 
+.pad1{
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    width: 1vw;
+    height: 7vw;
+    top: -2%;
+    left: -44vw;
+}
+
+.pad2{
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    width: 1vw;
+    height: 7vw;
+    top: -2%;
+    left: 44vw;
+}
+
 
