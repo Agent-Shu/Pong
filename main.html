@@ -6,17 +6,17 @@
         <title>Pong ! </title>
     </head>
 
-    <body class="body" onkeypress="keydown(event)">
-        <outer class="outer">
-            <inner class="inner">
-                <pad1 class="pad1"></pad1>
-                <pad2 class="pad2"></pad2>
+    <body class="body" onkeydown="keydown(event)">
+        <div class="outer">
+            <div class="inner">
+                <div class="pad1"></div>
+                <div class="pad2"></div>
 
 
 
 
-            </inner>
-        </outer>
+            </div>
+        </div>
 
 
 
@@ -28,7 +28,7 @@
        
         <script>
 
-            addEventListener("keypress",(event) => {
+            addEventListener("keydown",(event) => {
                 console.log(event);
             });
 
